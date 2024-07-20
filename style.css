@@ -45,16 +45,22 @@ nav a:hover {
 
 
 
+
 /* for mobile */
-@media (max-width: 800px) {
+@media (max-width: 1000px)  {
+    * {
+        text-align: center;
+    }
+
     body {
         font-size: 0.8rem;
         text-align: center;
         line-height: 2;
     }
 
-    nav {
-        font-size: 0.8rem;
+    nav a {
+        font-size: 1.1rem;
+        padding: 20px 20px;
     }
 
     ul{
